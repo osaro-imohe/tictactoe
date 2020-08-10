@@ -103,7 +103,6 @@ const Game = () => {
     
     const onBoxPress = (row,col) => {
     
-    console.log(state.wins)
     //START STOPWATCH
     setState(prevState => ({
         ...prevState,

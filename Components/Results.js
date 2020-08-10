@@ -14,9 +14,8 @@ const Results = () =>{
     const displayWins = () => {
         if(state.wins == null){
             return (
-                <View style={styles.result}>
-                    <Text>Player wins: 0</Text>
-                    <Text>Computer wins: 0</Text>
+                <View style={styles.resultlist}>
+                    <Text>You haven't played any games yet</Text>
                 </View>
             )
         }else{
