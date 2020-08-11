@@ -44,15 +44,6 @@ const GlobalContextProvider = ({children}) => {
     }
   };
 
-  //   const clearStorage = async () => {
-  //         try {
-  //           await AsyncStorage.clear()
-  //           alert('Storage successfully cleared!')
-  //         } catch (e) {
-  //           alert('Failed to clear the async storage.')
-  //         }
-  //       }
-
   const incrementPlayerWins = (date, time) => {
     const value = { winner: 1, date, time };
     storeData(value);
